@@ -115,12 +115,11 @@ a:focus {
 }
 
 body > section {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .center {
   text-align: center;
-  padding-bottom: 55px;
 }
 
 .scaleIn {
@@ -1893,20 +1892,20 @@ ul.social_icons li  a i{
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
 .gmap-area .gmap iframe {
   border-radius: 50%;
-  height: 280px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
 }
 
 .gmap{
     border: 10px solid #f6f5f0;
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     box-shadow: 0px 0px 3px 3px #e7e4dc;
     overflow: hidden;
     position: relative;
@@ -1931,6 +1930,26 @@ ul.social_icons li  a i{
   color: #4E4E4E;
   font-size: 16px;
   font-weight: 300;
+}
+#contact {
+  position: relative;
+  overflow: hidden;
+}
+#contact .container-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#contact .contact-form {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-top: 80px;
+}
+#contact .contact-form h3 {
+  margin-top: 0;
 }
 
 .form-group .form-control {
