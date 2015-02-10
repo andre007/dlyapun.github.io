@@ -1478,11 +1478,11 @@ ul.social_icons li  a i{
 }
 
 .clients-area {
-  padding: 60px;
+  padding: 10px;
 }
 
 .clients-comments {
-    background-image: url("../images/image_bg.png");
+    /*background-image: url("../images/image_bg.png");*/
     background-position: center 118px;
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -1491,9 +1491,9 @@ ul.social_icons li  a i{
 .clients-comments img {
   background:#DDDDDD;
   border: 1px solid #DDDDDD;
-  height: 182px;
+  height: 282px;
   padding: 3px;
-  width: 182px;
+  width: 282px;
   transition: all 0.9s ease 0s;
   -moz-transition: all 0.9s ease 0s;
   -webkit-transition: all 0.9s ease 0s;
@@ -1501,7 +1501,7 @@ ul.social_icons li  a i{
 }
 
 .clients-comments h3 {
-  margin-top: 55px;
+  margin-top: 20px;
   font-weight: 300;
   padding: 0 40px;
 }
